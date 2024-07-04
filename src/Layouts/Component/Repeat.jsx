@@ -203,7 +203,7 @@ const Repeat = () => {
     },
     {
       link: "https://www.querlo.com/",
-      imgSrc: '/p1.png',
+      imgSrc: '/ZZ.png',
     },
     {
       link: "https://www.pin.unifi.it/",
@@ -265,6 +265,7 @@ const Repeat = () => {
       link: "https://www.gherzi.com/",
       imgSrc: '/Screenshot 2024-06-20 180603.png',
     },
+
 
   ];
   const darkMode = useSelector((state) => state.theme.isLight);

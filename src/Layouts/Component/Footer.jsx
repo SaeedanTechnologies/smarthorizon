@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router";
@@ -6,7 +6,7 @@ import Copy from "./Copy";
 
 const Footer = () => {
   const theme = useTheme();
-  const isSmall = useMediaQuery(theme.breakpoints.down('sm'))
+  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
   const { t } = useTranslation();
   const navigate = useNavigate();
   const pageRoutes = [
@@ -17,12 +17,6 @@ const Footer = () => {
     { title: t("ex"), route: "/experience" },
     { title: 'Privacy Policy', route: "/privacy-policy" },
   ];
-  // const supportData = [
-  //     { title: 'Support' },
-  //     { title: 'FAQ,s' },
-  //     { title: 'Support Center' },
-  //     { title: 'Security' },
-  // ]
 
   const contactData = [
     { title: t("cu") },
@@ -38,10 +32,10 @@ const Footer = () => {
 
   return (
     <>
-      <Box sx={{ fontFamily: 'Montserrat, sans- serif' }}>
+      <Box sx={{ fontFamily: 'Montserrat, sans-serif' }}>
         <Grid container spacing={5} sx={{ padding: isSmall ? '20px' : "40px" }}>
           <Grid item lg={4}>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px', flexDirection: 'column' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
               <img
                 src="/Logo_white.png"
                 alt=""
@@ -61,22 +55,20 @@ const Footer = () => {
             }}
           >
             {pageRoutes.map((val, ind) => (
-              <Box
-                key={ind}
-                onClick={() => handlePageClick(val.route)}
-                style={{ cursor: "pointer" }}
-              >
-                <Typography sx={{ fontFamily: 'Montserrat, sans- serif' }}>{val.title}</Typography>
+              <Box key={ind}>
+                <Typography
+                  sx={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    cursor: "pointer",
+                    display: "inline-block",
+                  }}
+                  onClick={() => handlePageClick(val.route)}
+                >
+                  {val.title}
+                </Typography>
               </Box>
             ))}
           </Grid>
-          {/* <Grid item lg={3} sx={{ display: 'flex', flexDirection: 'column', gap: '20px', color: 'white' }}>
-                        {supportData.map((val, ind) => (
-                            <Box key={ind}>
-                                <Typography sx={{ fontWeight: 600 }}>{val.title}</Typography>
-                            </Box>
-                        ))}
-                    </Grid> */}
           <Grid
             item
             lg={4}
@@ -89,13 +81,12 @@ const Footer = () => {
           >
             {contactData.map((val, ind) => (
               <Box key={ind}>
-                <Typography sx={{ fontWeight: 600, fontFamily: 'Montserrat, sans- serif' }}>{val.title}</Typography>
+                <Typography sx={{ fontWeight: 600, fontFamily: 'Montserrat, sans-serif' }}>{val.title}</Typography>
               </Box>
             ))}
           </Grid>
         </Grid>
-        {/* <Divider sx={{ color: 'white' }} /> */}
-      </Box >
+      </Box>
       <Copy />
     </>
   );

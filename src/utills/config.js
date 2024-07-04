@@ -253,13 +253,13 @@ const resources = {
       ad: 'Sede Legale: Viale Vittorio Veneto 80 presso Studio G.B., 59100 Prato (PO), Italia',
       ad1: 'Ufficio: Via G. Meoni 11, 59100 Prato (PO), Italia',
       ab_d1:
-        "SMART è un azienda rivoluzionaria creata nel marzo 2015 dal visionario Emanuele Cecchi, con lobiettivo di potenziare le imprese in tutto il mondo.",
+        "SMART è un'azienda rivoluzionaria creata nel marzo 2015 dal visionario Emanuele Cecchi, con l’obiettivo di potenziare le imprese in tutto il mondo.",
       ab_d2:
-        "Forniamo una vasta gamma di servizi ai nostri clienti, contando su un team di consulenti altamente qualificati provenienti da vari paesi. Sono scelti per la loro vasta esperienza nei rispettivi settori e le loro abili capacità problem-solving, insieme alle partnership con i collaboratori internazionali di SMART.",
+        "Forniamo una vasta gamma di servizi ai nostri clienti, contando su un team di consulenti altamente qualificati provenienti da vari Paesi, scelti per la loro vasta esperienza nei rispettivi settori e le loro capacità problem-solving.",
       ab_d3:
-        "I nostri consulenti sono coinvolti strettamente con i clienti in ogni fase delle loro operazioni, collaborando fin dall inizio per sviluppare le strategie di miglioramento più adatte per creare opportunità di crescita.",
-      sec1_end1: "Pronti per espandere i vostri orizzonti? ",
-      sec1_end2: "Fate la scelta SMART.",
+        "I nostri consulenti sono strettamente coinvolti in ogni fase delle operazioni, collaborando fin dalle fasi iniziali del progetto, nello sviluppo delle strategie più idonee per il raggiungimento degli obiettivi stabiliti dai clienti.",
+      sec1_end1: "Desideri espandere i tuoi orizzonti? ",
+      sec1_end2: "Fai la scelta SMART.",
       ab_partner: "I nostri Partner:",
       ab_manager: "I nostri Country Managers:",
       ser_title1: "Consulenza Industriale",
