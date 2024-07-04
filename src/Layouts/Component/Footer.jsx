@@ -27,7 +27,7 @@ const Footer = () => {
   const contactData = [
     { title: t("cu") },
     { title: "+393408049494" },
-    { title: "info@smart-horizons" },
+    { title: "info@smart-horizons.it" },
     { title: t("ad") },
     { title: t("ad1") },
   ];

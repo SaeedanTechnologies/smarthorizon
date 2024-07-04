@@ -14,6 +14,7 @@ import Navbar from "./Layouts/Component/Navbar";
 import Footer from "./Layouts/Component/Footer";
 import { useDispatch, useSelector } from "react-redux";
 import { useMemo, useState } from "react";
+import QuerloWidget from "./Layouts/Component/QuerloWidget";
 const getDesignTokens = (mode) => ({
   palette: {
     mode,
@@ -100,6 +101,7 @@ function App() {
                 <CssBaseline />
                 <Navbar />
                 <Router />
+                <QuerloWidget />
                 <Footer />
               </Paper>
             </ErrorBoundary>

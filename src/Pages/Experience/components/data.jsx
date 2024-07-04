@@ -19,4 +19,7 @@ export const data = [
   { title: "A+A" },
   { title: "MILIPOL" },
   { title: "MECSPE" },
+  { title: "JEC" },
+  { title: "Go international" },
+  { title: "XVII Congresso Nazionale AIUC " },
 ];

@@ -70,12 +70,12 @@ const Contact = () => {
   };
   const cardData = [
     {
-      imgSrc: "/unsplash_3JmfENcL24M (6).png",
+      imgSrc: "/Screenshot 2024-06-20 191302.png",
       title: t("team1_name"),
       desc: t("team1_pos"),
-      linkdedIn: "https://www.linkedin.com/in/emanuele-cecchi-aa8232a",
-      mail: "mailto:e.cecchi@smart-horizons.it",
-      phone: "tel:+393403061893",
+      linkdedIn: "https://www.linkedin.com/in/franco-bagliesi-0915788a/",
+      mail: "mailto:f.bagliesi@smart-horizons.it",
+      phone: "tel:+39 335 695 6646",
     },
     {
       imgSrc: "/unsplash_3JmfENcL24M (7).png",
@@ -102,6 +102,14 @@ const Contact = () => {
       mail: "mailto:c.novelli@smart-horizons.it",
       phone: "tel:+393408049494",
     },
+    {
+      imgSrc: "/Screenshot 2024-06-20 192119.png",
+      title: t("team5_name"),
+      desc: t("team5_pos"),
+      linkdedIn: "https://www.linkedin.com/in/massimo-giannuzzi-b71a2b229/",
+      mail: "mailto:Mg@maxwellandpartners.com",
+      phone: "tel:+39 335 590 7797",
+    },
   ];
   const navigate = useNavigate()
   const handlePrivacy = () => {
@@ -122,7 +130,7 @@ const Contact = () => {
             padding: isSmall ? '20px' : "50px 50px",
           }}
         >
-          <div style={{ paddingBottom: isSmall ? '10px' : "50px" }}>
+          {/* <div style={{ paddingBottom: isSmall ? '10px' : "50px" }}>
             <Typography
 
               sx={{
@@ -137,7 +145,7 @@ const Contact = () => {
             >
               Get In Touch
             </Typography>
-          </div>
+          </div> */}
 
           {/* <Typography sx={{ fontSize: '18px', fontWeight: 500, textAlign: 'center', color: theme.palette.primary.six, fontFamily: 'cursive' }}>{t('cun_title')}</Typography> */}
           <Box sx={{ padding: "5px", background: darkMode ? "#000" : "#fff" }}>
@@ -257,7 +265,7 @@ const Contact = () => {
               <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
 
               <Typography sx={{ textAlign: 'center', color: darkMode ? "#fff" : "#000", fontSize: '22px' }}>
-                I confirm I read and accepted the <span onClick={handlePrivacy} style={{ color: '#BF9A3F', cursor: "pointer" }}>Privacy Policy</span>
+                {t("contact_confirm")}
               </Typography>
             </Box>
 
@@ -274,7 +282,7 @@ const Contact = () => {
                     fontFamily: 'Montserrat, sans- serif'
                   }}
                 >
-                  Send Message
+                  {t("send_message")}
                 </Button>
               </Box>
             )}
@@ -301,7 +309,7 @@ const Contact = () => {
 
                 }}
               >
-                Meet Our Team
+                {t("MOT")}
               </Typography>
             </Box>
             <Grid container spacing={3}>

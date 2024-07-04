@@ -80,7 +80,7 @@ const Section_1 = ({ description }) => {
   };
 
   const aboutPage = () => {
-    navigate("/about_us");
+    navigate("/services");
   };
 
   return (
@@ -300,6 +300,20 @@ const Section_1 = ({ description }) => {
 
           {/* Repeat similar structure for other content boxes */}
           {/* Other content boxes */}
+          <Box>
+            <Typography sx={{
+              padding: '0px 0px',
+              // fontFamily: 'Edu NSW ACT Foundation, cursive',
+              fontSize: '22px',
+              // color: 'black',
+              fontWeight: 500,
+              textAlign: 'center',
+              color: darkMode ? "#ffff" : "#000",
+              fontFamily: 'Montserrat, sans- serif'
+              // ...fadeInStyle,
+              // transitionDelay: '1s',
+            }}> {t("before_discover")}</Typography>
+          </Box>
           <Box sx={{ margin: "0 auto" }}>
             <Button
               onClick={handleButton}
@@ -311,7 +325,7 @@ const Section_1 = ({ description }) => {
                 fontFamily: 'Montserrat, sans- serif'
               }}
             >
-              Discover More
+              {t("discover_button")}
             </Button>
           </Box>
         </Box>

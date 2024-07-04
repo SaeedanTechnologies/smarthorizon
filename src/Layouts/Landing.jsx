@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next'
 import Copy from './Component/Copy'
 import Page from '../components/page/page'
 import { useMediaQuery, useTheme } from '@mui/material'
+import QuerloWidget from '../Layouts/Component/QuerloWidget'
 const Landing = () => {
     const { t } = useTranslation();
     // const { i18n } = useTranslation();
@@ -24,6 +25,7 @@ const Landing = () => {
                 <Section_1 />
                 {/* <Copy /> */}
                 {/* <Footer /> */}
+                {/* <QuerloWidget /> */}
             </Page>
 
 

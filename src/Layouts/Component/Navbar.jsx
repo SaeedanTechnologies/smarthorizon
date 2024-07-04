@@ -126,6 +126,7 @@ const Navbar = () => {
     <>
       <Box
         sx={{
+
           display: "flex",
           justifyContent: "space-between",
           padding: isScrolled ? "7px 35px" : "25px 35px", // Adjust padding for smaller screens
@@ -193,6 +194,7 @@ const Navbar = () => {
               {currentLanguage.toUpperCase()}
             </div>
             <Menu
+              sx={{ zIndex: 99999999999 }}
               id="language-menu"
               anchorEl={anchorEl}
               open={Boolean(anchorEl)}
@@ -209,7 +211,7 @@ const Navbar = () => {
                 sx: {
                   mt: isScrolled ? "7px" : "20px",
                   ml: "40px",
-                  zIndex: 1000,
+                  zIndex: 99999999,
                   width: isSmall ? '33%' : "10%",
                   // paddingTop: '40px'
                 },

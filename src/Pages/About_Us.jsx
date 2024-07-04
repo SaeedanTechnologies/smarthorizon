@@ -44,7 +44,7 @@ const About = () => {
         <Box
           sx={{
             backgroundColor: darkMode ? "#000" : "#fff",
-            padding: isSmall ? "20px" : "0px 80px 100px 100px",
+            padding: isSmall ? "20px" : "0px 80px 30px 100px",
           }}
         >
           <Typography
@@ -138,9 +138,11 @@ const About = () => {
             </Box> */}
 
 
-
+            <Typography sx={{ fontSize: '20px', fontWeight: 500, color: darkMode ? "#fff" : "#000", fontFamily: 'Montserrat, sans- serif', textAlign: 'center', marginTop: "50px" }}>{t('BCM')}</Typography>
           </Box>
+
         </Box>
+
         <Repeat />
       </Page>
     </div>

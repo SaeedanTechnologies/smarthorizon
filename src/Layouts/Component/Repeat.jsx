@@ -51,7 +51,7 @@ const Repeat = () => {
     {
       imgSrc: "/unsplash_3JmfENcL24M.png",
       title: "THOMAS LEE",
-      description: "CHINA,TAIWAN,HONG KONG",
+      description: "CHINA, TAIWAN, HONG KONG",
     },
     {
       imgSrc: "/unsplash_3JmfENcL24M (1).png",
@@ -73,14 +73,14 @@ const Repeat = () => {
       imgSrc: "/unsplash_3JmfENcL24M (4).png",
       title: "MAZIN A.S. YAISH",
       description:
-        "KUWAIT,BAHREIN,QATAR,EMIRATI ARABI,OMAN,LIBANO,ARABIA SAUDITA",
+        "KUWAIT, BAHREIN, QATAR, EMIRATI ARABI, OMAN, LIBANO, ARABIA SAUDITA",
     },
 
     {
       imgSrc: "/unsplash_3JmfENcL24M (2).png",
       title: "ELEONORA SINKOVA",
       description:
-        "RUSSIAN_FEDERATION,ARMENIA,BIELORUSSIA,KAZAKISTAN,UZBEKISTAN,GEORGIA",
+        "RUSSIAN_FEDERATION, ARMENIA, BIELORUSSIA, KAZAKISTAN, UZBEKISTAN, GEORGIA",
     },
   ];
 
@@ -167,7 +167,7 @@ const Repeat = () => {
     },
     {
       link: "https://essesistem.com/",
-      imgSrc: "/cropped-cropped-logo-4.webp",
+      imgSrc: "/Screenshot 2024-06-20 174738.png",
     },
     {
       link: "http://www.wks-cifra.com/",
@@ -211,7 +211,7 @@ const Repeat = () => {
     },
     {
       link: "https://www.sagitechsrls.it/",
-      imgSrc: '/p4.png',
+      imgSrc: '/Screenshot 2024-06-20 175336.png',
     },
     {
       link: "https://www.disruptivebeautylaboratories.it/",
@@ -237,10 +237,10 @@ const Repeat = () => {
       link: "https://www.evorive.com/",
       imgSrc: '/PP1.png',
     },
-    {
-      link: "https://www.maxwellandpartners.com/",
-      imgSrc: '/pp2.png',
-    },
+    // {
+    //   link: "https://www.maxwellandpartners.com/",
+    //   imgSrc: '/pp2.png',
+    // },
     {
       link: "https://www.bisentino.it/",
       imgSrc: '/pp3.png',
@@ -248,6 +248,22 @@ const Repeat = () => {
     {
       link: "https://www.siretessile.com/",
       imgSrc: '/pp5.png',
+    },
+    {
+      link: "https://www.gherzi.com/",
+      imgSrc: '/Screenshot 2024-06-20 174454.png',
+    },
+    {
+      link: "https://www.gherzi.com/",
+      imgSrc: '/Screenshot 2024-06-20 180513.png',
+    },
+    {
+      link: "https://www.gherzi.com/",
+      imgSrc: '/Screenshot 2024-06-20 180535.png',
+    },
+    {
+      link: "https://www.gherzi.com/",
+      imgSrc: '/Screenshot 2024-06-20 180603.png',
     },
 
   ];
